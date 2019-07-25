@@ -241,12 +241,13 @@ small-header {
 
 
 
-	/*start @media max-width 800px */
+	/*start @media max-width 500px */
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
 	body {
 
 	 background-color: black;
+	 border: solid  green 9px;
 	 
 }
 	   
@@ -329,11 +330,11 @@ small-header {
 	   }
 	   /*need to fix middle image logo */
 	   .wrapper2 {
-		justify-content: center:
+		justify-content: center;
 		width: 90%;
 	   }
 	.middle-img img {
-		justify-content: center:
+		justify-content: center;
 		width: 90%;
 	}
 	.section-block1 {
@@ -368,7 +369,33 @@ small-header {
 
 }
 
+@media (min-width: 501px) and (max-width: 800px)  {
 
+.container {
+	width: 750px;
+	border: solid red 9px;
+}	
+#header {
+	display: flex;
+	flex-direction: row-reverse;
+}
 
+#nav-menu {
+	display: flex;
+	flex-direction: column-reverse;
+}
+.mobile-logo {
+	display: none;
 
-/* end of 800px media */
+}
+#sub-logo {
+	display: none;
+}
+#section1 {
+	display: flex;
+	justify-content: center;
+}
+#footer {
+	margin-top: 85px;
+}
+}
