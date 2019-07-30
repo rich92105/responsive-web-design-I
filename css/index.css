@@ -192,6 +192,7 @@ h5 {
 		width: 500px;
 		height: 3000px;
 		background-color: black;
+		
 	}
 
 	.nav-logo {
@@ -298,7 +299,7 @@ h5 {
 
 	}
 
-	/*need to fix middle image logo */
+
 	img.middle-img {
 		width: 500px;
 	}
@@ -348,7 +349,7 @@ h5 {
 
 	.copyright {
 		margin-top: 40px;
-		margin-left: 185px;
+		
 	}
 }
 
@@ -360,7 +361,7 @@ h5 {
 
 	.container {
 		width: 750px;
-		border: solid red 9px;
+		
 	}
 
 	#header {
@@ -404,10 +405,11 @@ h5 {
 
 body {
 	background-color: white;
+	width 100%
 }
 
 .container {
-	width: 1000px;
+	width: 90%;
 	height: 3000px;
 	margin: 0 auto;
 	background-color: white;
@@ -473,7 +475,7 @@ nav a {
 }
 
 #button1 {
-	border: solid black 3px;
+	border: solid black 1px;
 	display: flex;
 	margin-left: 215px;
 	background: white;
@@ -550,7 +552,3 @@ small-header {
 	flex-direction: column;
 }
 
-.copyright {
-
-	margin-left: 350px;
-}
