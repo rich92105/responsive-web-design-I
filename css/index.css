@@ -360,7 +360,7 @@ h5 {
 @media (min-width: 501px) and (max-width: 800px) {
 
 	.container {
-		width: 750px;
+		width: 90%px;
 		
 	}
 
@@ -381,12 +381,16 @@ h5 {
 
 	}
 
+	.wrapper2 {
+		width: 90%;
+	}
+
 	#sub-logo {
 		display: none;
 	}
 
 	.logo {
-		margin-left: 400px;
+		margin-left: 12rem;
 	}
 
 	#section1 {
@@ -405,7 +409,7 @@ h5 {
 
 body {
 	background-color: white;
-	width 100%
+	width: 100%;
 }
 
 .container {
